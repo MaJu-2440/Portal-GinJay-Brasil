@@ -3,14 +3,63 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portal GinJay | Catálogo</title>
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
+    />
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <title>Portal GinJay | Catálogo</title>
   </head>
   <body>
     <header>
-        <div class="logo">
-            <img loading="lazy" src="./assets/logo-ginjay-brasil-branca.png" alt="logo ginjay brasil branca">
-        </div>
+      <div class="logo">
+        <img
+          loading="lazy"
+          src="./assets/logo-ginjay-brasil-branca.png"
+          alt="logo ginjay brasil branca"
+        />
+      </div>
     </header>
-  </body> 
+    <main>
+      <section class="hero">
+        <!-- Slider main container -->
+        <div class="swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <img
+                src="./assets/kit ginjay in brasil (1).png"
+                alt="slide 1"
+                loading="lazy"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="./assets/kit ginjay in brasil (2).png"
+                alt="slide 2"
+                loading="lazy"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="./assets/kit ginjay in brasil (3).png"
+                alt="slide 3"
+                loading="lazy"
+              />
+            </div>
+            ...
+          </div>
+
+          <!-- If we need navigation buttons -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+      </section>
+    </main>
+
+    <script type="module" src="./js/swiper.js"></script>
+  </body>
 </html>
