@@ -53,3 +53,69 @@ header .logo img {
       --swiper-navigation-size: 32px;
   --swiper-navigation-color: var(--color-background);
 }
+
+.catalogo {
+    padding: 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.catalogo h2 {
+    font-family: var(--font-heading);
+    font-weight: 700;
+    font-size: 2.5rem;
+    margin: 0;
+    text-align: center;
+}
+
+.catalogo .filtro-produtos {
+    display: flex;
+    justify-content: center;
+    gap: .8rem;
+    flex-wrap: wrap;
+}
+
+.catalogo .filtro-produtos button {
+    background-color: var(--color-primary);
+    color: var(--color-background);
+    font-family: var(--font-body);
+    font-weight: 600;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.catalogo .produtos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 300px));
+    justify-content: center;
+    gap: 2rem;
+}
+
+.catalogo .card-produto {
+    background-color: var(--color-secondary);
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: start;
+    padding: 1rem;
+    margin: 0 auto;
+    max-width: 250px;
+}
+
+.catalogo .card-produto img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    font-size: .8rem;
+    color: var(--color-text);
+    font-family: var(--font-body);
+}
