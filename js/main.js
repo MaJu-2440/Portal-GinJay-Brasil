@@ -1,11 +1,11 @@
-const endpoint = "http://localhost:3000/produtos";
+const endpoint = "https://raw.githubusercontent.com/MaJu-2440/Portal-GinJay-Brasil/refs/heads/main/produtos.json";
 
 const filtroBtns = document.querySelectorAll(".filtro-btn");
 const containerProdutos = document.querySelector(".produtos");
 
 async function buscaProdutos() {
   try {
-    const response = await fetch(endpoint);
+    const response = await fetch(`${endpoint}/produtos`);
     if (!response.ok) {
       throw new Error(`HTTP error! status: ${response.status}`);
     }
