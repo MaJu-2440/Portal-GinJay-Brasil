@@ -21,6 +21,9 @@ filtroBtns.forEach((btn) => {
   btn.addEventListener("click", () => {
     const filtro = btn.getAttribute("data-filtro");
 
+    filtroBtns.forEach((b) => b.removeAttribute("selected"));
+    btn.setAttribute("selected", "true");
+
     containerProdutos.innerHTML = "";
     filtraProdutos(filtro);
   });
