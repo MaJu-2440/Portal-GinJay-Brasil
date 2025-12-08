@@ -1,0 +1,28 @@
+{
+  "produtos": [
+    {
+      "id": 1,
+      "nome": "Camiseta Preta",
+      "url": "./assets/camiseta ginjay brasil preta.png",
+      "categoria": "Roupas"
+    },
+    {
+      "id": 2,
+      "nome": "Camiseta Branca",
+      "url": "./assets/camiseta ginjay brasil branca.png",
+      "categoria": "Roupas"
+    },
+    {
+      "id": 3,
+      "nome": "Ecobag GinJay",
+      "url": "./assets/ecobag ginjay.png",
+      "categoria": "Ecobags"
+    },
+    {
+      "id": 4,
+      "nome": "Squeeze GinJay",
+      "url": "./assets/squeeze ginjay.png",
+      "categoria": "Garrafas"
+    }
+  ]
+}
