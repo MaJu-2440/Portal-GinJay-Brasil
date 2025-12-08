@@ -1,16 +1,17 @@
-const endpoint = "https://raw.githubusercontent.com/MaJu-2440/Portal-GinJay-Brasil/refs/heads/main/produtos.json";
+const endpoint = "./produtos.json";
 
 const filtroBtns = document.querySelectorAll(".filtro-btn");
 const containerProdutos = document.querySelector(".produtos");
 
 async function buscaProdutos() {
   try {
-    const response = await fetch(`${endpoint}/produtos`);
+    const response = await fetch(endpoint);
     if (!response.ok) {
       throw new Error(`HTTP error! status: ${response.status}`);
     }
     const data = await response.json();
-    return data;
+    console.log(data.produtos);
+    return data.produtos;
   } catch (error) {
     console.error("Error fetching data:", error);
   }
