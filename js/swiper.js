@@ -6,10 +6,12 @@ const swiper = new Swiper('.swiper', {
   
   // Responsive breakpoints
   breakpoints: {
-    // when window width is >= 480px
     768: {
       slidesPerView: 2,
       spaceBetween: 0
+    },
+    1024: {
+      autoplay: false
     }
   },
   // Navigation arrows
