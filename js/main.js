@@ -48,9 +48,13 @@ function carregaCards(produtos) {
     card.classList.add("card-produto");
 
     const img = document.createElement("img");
-    img.src = produto.url;
+    img.src = produto.url[0];
     img.alt = produto.nome;
     img.loading = "lazy";
+
+    if (card.attributes.contain(frente-verso)) {
+      img.src = produto.url[1]
+    }
 
     const titulo = document.createElement("h3");
     titulo.textContent = produto.nome;
