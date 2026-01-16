@@ -3,73 +3,88 @@
     {
       "id": 1,
       "nome": "Camiseta Preta",
-      "url": "./assets/camiseta ginjay brasil preta.png",
+      "url": ["./assets/camiseta ginjay brasil preta.png"],
       "categoria": "camisetas"
     },
     {
       "id": 2,
       "nome": "Camiseta Branca",
-      "url": "./assets/camiseta ginjay brasil branca.png",
+      "url": ["./assets/camiseta ginjay brasil branca.png"],
       "categoria": "camisetas"
     },
     {
       "id": 3,
       "nome": "Ecobag GinJay",
-      "url": "./assets/ecobag ginjay.png",
+      "url": ["./assets/ecobag ginjay.png"],
       "categoria": "ecobags"
     },
     {
       "id": 4,
       "nome": "Squeeze GinJay",
-      "url": "./assets/squeeze ginjay.png",
+      "url": ["./assets/squeeze ginjay.png"],
       "categoria": "garrafas"
     },
     {
       "id": 5,
       "nome": "Regata GinJay",
-      "url": "./assets/regata ginjay.png",
+      "url": ["./assets/regata ginjay.png"],
       "categoria": "camisetas"
     },
     {
       "id": 6,
       "nome": "Boné GinJay Brasil",
-      "url": "./assets/bone ginjay brasil.png",
+      "url": ["./assets/bone ginjay brasil.png"],
       "categoria": "bones"
     },
     {
       "id": 7,
       "nome": "Camiseta Alpaca",
-      "url": ["./assets/camiseta alpaca.png", ".assets/camiseta alpaca (2).png"],
+      "url": [
+        "./assets/camiseta alpaca.png",
+        "./assets/camiseta alpaca (2).png"
+      ],
       "categoria": "camisetas"
     },
     {
       "id": 8,
       "nome": "Camiseta Monkey",
-      "url": ["./assets/camiseta monkey.png", ".assets/camiseta monkey (2).png"],
+      "url": [
+        "./assets/camiseta monkey.png",
+        "./assets/camiseta monkey (2).png"
+      ],
       "categoria": "camisetas"
     },
     {
       "id": 9,
       "nome": "Camiseta Playlist",
-      "url": "./assets/camiseta playlist.png",
+      "url": ["./assets/camiseta playlist.png"],
       "categoria": "camisetas"
     },
     {
       "id": 10,
       "nome": "Camiseta Poisonous Love",
-      "url": ["./assets/camiseta poisonous love branca.png", "./assets/camiseta poisonous love branca.png"],
+      "url": [
+        "./assets/camiseta poisonous love branca.png",
+        "./assets/camiseta poisonous love preta.png"
+      ],
       "categoria": "camisetas"
     },
     {
       "id": 11,
       "nome": "Jersey GinJay Azul",
-      "url": ["./assets/jersey ginjay azul.png", "./assets/jersey ginjay azul (2).png"],
+      "url": [
+        "./assets/jersey ginjay azul.png",
+        "./assets/jersey ginjay azul (2).png"
+      ],
       "categoria": "camisetas"
     },
     {
       "id": 12,
       "nome": "Jersey GinJay Vermelha",
-      "url": ["./assets/jersey ginjay vermelha.png", "./assets/jersey ginjay vermelha (2).png"],
+      "url": [
+        "./assets/jersey ginjay vermelha.png",
+        "./assets/jersey ginjay vermelha (2).png"
+      ],
       "categoria": "camisetas"
     }
   ]

@@ -31,17 +31,17 @@ header .logo img {
   width: 100%;
 }
 
-.swiper {
+.hero .swiper {
   width: 100%;
   height: auto;
 }
 
-.swiper-slide {
+.hero .swiper-slide {
   width: 100%;
   max-width: 500px;
 }
 
-.swiper-slide img {
+.hero .swiper-slide img {
   display: block;
   width: 100%;
   height: auto;
@@ -114,9 +114,12 @@ header .logo img {
   padding: 1rem;
   margin: 0 auto;
   max-width: 300px;
+  width: 100%;
   color: var(--color-text);
   font-size: 1rem;
-  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  transition:
+    box-shadow 0.3s ease,
+    transform 0.3s ease;
 }
 
 .catalogo .card-produto:focus,
@@ -194,10 +197,10 @@ footer {
     min-height: 340px;
   }
 
-  .swiper,
-  .swiper-slide,
-  .swiper-slide img,
-  .swiper-wrapper {
+  .hero .swiper,
+  .hero .swiper-slide,
+  .hero .swiper-slide img,
+  .hero .swiper-wrapper {
     visibility: hidden;
     display: none;
   }
