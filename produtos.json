@@ -191,15 +191,6 @@
     },
     {
       "id": 21,
-      "nome": "Camiseta Meme GinJay e LMSY - Branca e Preta",
-      "url": [
-        "./assets/camiseta meme ginjay e lmsy branca.png",
-        "./assets/camiseta meme ginjay e lmsy preta.png"
-      ],
-      "categoria": "camisetas"
-    },
-    {
-      "id": 22,
       "nome": "Ecobag GinJay",
       "url": [
         "./assets/ecobag ginjay (2).png"
@@ -207,7 +198,7 @@
       "categoria": "ecobags"
     },
      {
-      "id": 23,
+      "id": 22,
       "nome": "Ecobag GinJay",
       "url": [
         "./assets/ecobag ginjay (3).png"
@@ -215,7 +206,7 @@
       "categoria": "ecobags"
     },
      {
-      "id": 24,
+      "id": 23,
       "nome": "Garrafa GinJay",
       "url": [
         "./assets/garrafa ginjay (2).png"
