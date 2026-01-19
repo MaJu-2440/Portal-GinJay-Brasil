@@ -97,6 +97,10 @@ header .logo img {
   border: 1px solid var(--color-primary);
 }
 
+.catalogo .filtro-btn:hover {
+  transform: translateY(-5px);
+}
+
 .catalogo .produtos {
   display: flex;
   flex-wrap: wrap;
