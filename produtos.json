@@ -89,28 +89,6 @@
     },
     {
       "id": 13,
-      "nome": "Camiseta GinJay e LMSY - Branca",
-      "url": [
-        "./assets/camiseta ginjay e lmsy branca.png",
-        "./assets/camiseta ginjay e lmsy branca 2.png",
-        "./assets/camiseta ginjay e lmsy branca 3.png",
-        "./assets/camiseta ginjay e lmsy branca 4.png"
-      ],
-      "categoria": "camisetas"
-    },
-    {
-      "id": 14,
-      "nome": "Camiseta GinJay e LMSY - Preta",
-      "url": [
-        "./assets/camiseta ginjay e lmsy preta.png",
-        "./assets/camiseta ginjay e lmsy preta 2.png",
-        "./assets/camiseta ginjay e lmsy preta 3.png",
-        "./assets/camiseta ginjay e lmsy preta 4.png"
-      ],
-      "categoria": "camisetas"
-    },
-    {
-      "id": 15,
       "nome": "Camiseta I Love My Girlfriend GinJay - Branca",
       "url": [
         "./assets/camiseta ilmygf ginjay branca.png",
@@ -124,7 +102,7 @@
       "categoria": "camisetas"
     },
     {
-      "id": 16,
+      "id": 14,
       "nome": "Camiseta I Love My Girlfriend GinJay - Preta",
       "url": [
         "./assets/camiseta ilmygf ginjay preta.png",
@@ -138,7 +116,7 @@
       "categoria": "camisetas"
     },
     {
-      "id": 17,
+      "id": 15,
       "nome": "Camiseta I Love My Girlfriend Ginny - Preta",
       "url": [
         "./assets/camiseta ilmygf ginny preta.png",
@@ -151,7 +129,7 @@
       "categoria": "camisetas"
     },
     {
-      "id": 18,
+      "id": 16,
       "nome": "Camiseta I Love My Girlfriend Ginny - Branca",
       "url": [
         "./assets/camiseta ilmygf ginny branca.png",
@@ -164,7 +142,7 @@
       "categoria": "camisetas"
     },
     {
-      "id": 19,
+      "id": 17,
       "nome": "Camiseta I Love My Girlfriend Jayna - Preta",
       "url": [
         "./assets/camiseta ilmygf jayna preta.png",
@@ -177,7 +155,7 @@
       "categoria": "camisetas"
     },
     {
-      "id": 20,
+      "id": 18,
       "nome": "Camiseta I Love My Girlfriend Jayna - Branca",
       "url": [
         "./assets/camiseta ilmygf jayna branca.png",
@@ -190,7 +168,7 @@
       "categoria": "camisetas"
     },
     {
-      "id": 21,
+      "id": 19,
       "nome": "Ecobag GinJay",
       "url": [
         "./assets/ecobag ginjay (2).png"
@@ -198,7 +176,7 @@
       "categoria": "ecobags"
     },
      {
-      "id": 22,
+      "id": 20,
       "nome": "Ecobag GinJay",
       "url": [
         "./assets/ecobag ginjay (3).png"
@@ -206,7 +184,7 @@
       "categoria": "ecobags"
     },
      {
-      "id": 23,
+      "id": 21,
       "nome": "Garrafa GinJay",
       "url": [
         "./assets/garrafa ginjay (2).png"
@@ -214,7 +192,7 @@
       "categoria": "garrafas"
     },
       {
-      "id": 24,
+      "id": 22,
       "nome": "Garrafa GinJay",
       "url": [
         "./assets/garrafa ginjay.png"
