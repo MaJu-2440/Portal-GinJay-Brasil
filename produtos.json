@@ -2,14 +2,14 @@
   "produtos": [
     {
       "id": 1,
-      "nome": "Camiseta GinJay Brasil Preta",
-      "url": ["./assets/camiseta ginjay brasil preta.png"],
+      "nome": "Camiseta GinJay de Brasil",
+      "url": ["./assets/camiseta ginjay brasil preta.png", "./assets/camiseta ginjay brasil branca.png"],
       "categoria": "camisetas"
     },
     {
       "id": 2,
-      "nome": "Camiseta GinJay Brasil Branca",
-      "url": ["./assets/camiseta ginjay brasil branca.png"],
+      "nome": "Camiseta GinJay Brasil",
+      "url": ["./assets/camiseta ginjay brasil.png", "./assets/camiseta ginjay brasil (2).png"],
       "categoria": "camisetas"
     },
     {
@@ -33,7 +33,7 @@
     {
       "id": 6,
       "nome": "Boné GinJay Brasil",
-      "url": ["./assets/bone ginjay brasil.png"],
+      "url": ["./assets/bone ginjay brasil.png", "./assets/bone ginjay brasil azul.png"],
       "categoria": "bones"
     },
     {
@@ -65,7 +65,8 @@
       "nome": "Camiseta Poisonous Love",
       "url": [
         "./assets/camiseta poisonous love branca.png",
-        "./assets/camiseta poisonous love preta.png"
+        "./assets/camiseta poisonous love preta.png",
+        "./assets/camiseta poisonous love verde.png"
       ],
       "categoria": "camisetas"
     },
